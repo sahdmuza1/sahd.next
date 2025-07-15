@@ -1,12 +1,12 @@
-import Footer from './components/Footer';
-import './globals.css';
+import DragBall from "./components/DragBall";
+import './globals.css'
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-background text-foreground">
         {children}
-        <Footer />
+        <DragBall />
       </body>
     </html>
   );
